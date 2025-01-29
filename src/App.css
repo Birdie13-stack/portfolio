@@ -124,6 +124,12 @@ a img {
   margin-bottom: 10px;
 }
 
+.tailwind {
+  margin-top: -10px;
+  /* background: transparent; */
+  width: 9rem;
+}
+
 hr {
   width: 80%;
   margin: 20px auto;

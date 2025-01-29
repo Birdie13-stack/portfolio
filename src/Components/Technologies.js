@@ -5,7 +5,7 @@ import js from "../assets/js.jpg";
 import react from "../assets/react.jpg";
 import git from "../assets/git.jpg";
 import github from "../assets/github.jpg";
-import vscode from "../assets/vscode.jpg";
+import tailwind from "../assets/tailwind.jpg";
 
 function Technologies() {
   return (
@@ -20,7 +20,7 @@ function Technologies() {
         <img src={react} alt="React Logo" />
         <img src={git} alt="Git Logo" />
         <img src={github} alt="Github Logo" />
-        <img src={vscode} alt="" />
+        <img src={tailwind} alt="" className="tailwind" />
       </div>
 
       <hr />
