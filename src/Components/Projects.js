@@ -15,19 +15,19 @@ function Projects() {
 
             <p>{project.description}</p>
 
-            <p>Tech Stack: {project.stack}</p>
+            <p className="project-stack">Tech Stack: {project.stack}</p>
 
             <div className="project-links">
               <p>
                 <img src={link} alt="" />
-                <a href={project.live} target="_blank">
+                <a href={project.live} target="_blank" rel="noreferrer">
                   Live Preview
                 </a>
               </p>
 
               <p className="github-link">
                 <img src={github} alt="" />
-                <a href={project.repo} target="_blank">
+                <a href={project.repo} target="_blank" rel="noreferrer">
                   View Code
                 </a>
               </p>

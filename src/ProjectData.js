@@ -1,11 +1,11 @@
 export const ProjectData = [
   {
-    title: "Image Haven",
+    title: "Assembly Endgame",
     description:
-      "An image gallery in which you can drag and drop images to reposition, and search for images by their tags.",
-    stack: "HTML, CSS, React.js",
-    repo: "https://github.com/Birdie13-stack/drag-and-drop-gallery",
-    live: "https://drag-and-drop-gallery-chi.vercel.app/",
+      "A word-guessing game where each wrong guess eliminates a programming language, until only Assembly is left.",
+    stack: "HTML, CSS, React.js, Typescript",
+    repo: "https://github.com/Birdie13-stack/assembly-endgame-ts",
+    live: "https://assembly-endgame-ts.vercel.app/",
   },
 
   {
@@ -26,11 +26,12 @@ export const ProjectData = [
   },
 
   {
-    title: "Twitter Sidebar",
-    description: "A clone of the twitter sidebar.",
+    title: "Meme Generator",
+    description:
+      "A meme generator that lets you select an image and add custom text.",
     stack: "HTML, CSS, React.js",
-    repo: "https://github.com/Birdie13-stack/twitter_sidebar",
-    live: "https://twitter-sidebar-eight.vercel.app/",
+    repo: "https://github.com/Birdie13-stack/meme-generator",
+    live: "https://meme-generator-seven-tau.vercel.app/",
   },
 
   {
@@ -42,32 +43,28 @@ export const ProjectData = [
   },
 
   {
-    title: "Age Calculator",
-    description: "A simple age calculator",
+    title: "Tenzies Game",
+    description:
+      "A dice game where you roll and hold dice until all show the same number. Built with game logic and state management.",
     stack: "React.js, CSS",
-    repo: "https://github.com/Birdie13-stack/age-calculator",
-    live: "https://age-calculator-orcin-rho.vercel.app/",
+    repo: "https://github.com/Birdie13-stack/tenzies",
+    live: "https://tenzies-red-eta.vercel.app/",
   },
   {
-    title: "Medium Landing Page",
-    description: "A clone of the medium landing page",
+    title: "Password Generator",
+    description:
+      "A password generator that creates secure, random passwords based on your chosen length.",
     stack: "React.js, CSS",
-    repo: "https://github.com/Birdie13-stack/medium",
-    live: "https://medium-swart-seven.vercel.app/",
-  },
-  {
-    title: "Weather App",
-    description: "A simple weather application that allows users to fetch and display weather information for a specified city.",
-    stack: "React.js, CSS",
-    repo: "https://github.com/Birdie13-stack/weather-app",
-    live: "https://weather-app-sigma-olive.vercel.app/",
+    repo: "https://github.com/Birdie13-stack/password-generator",
+    live: "https://password-generator-neon-one.vercel.app/",
   },
 
   {
     title: "Photo Gallery",
-    description: "A photo gallery that fetches and displays random phots from the Unsplash API",
+    description:
+      "A photo gallery that fetches and displays random phots from the Unsplash API",
     stack: "React.js, CSS",
     repo: "https://github.com/Birdie13-stack/photo-gallery",
-    live: "https://photo-gallery-chi-opal.vercel.app/ "
-  }
+    live: "https://photo-gallery-chi-opal.vercel.app/ ",
+  },
 ];

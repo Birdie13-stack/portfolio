@@ -6,6 +6,7 @@ import react from "../assets/react.jpg";
 import git from "../assets/git.jpg";
 import github from "../assets/github.jpg";
 import tailwind from "../assets/tailwind.jpg";
+import typescript from "../assets/typescript.png";
 
 function Technologies() {
   return (
@@ -21,6 +22,7 @@ function Technologies() {
         <img src={git} alt="Git Logo" />
         <img src={github} alt="Github Logo" />
         <img src={tailwind} alt="" className="tailwind" />
+        <img src={typescript} alt="" className="typescript" />
       </div>
 
       <hr />
