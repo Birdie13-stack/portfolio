@@ -9,12 +9,30 @@ export const ProjectData = [
   },
 
   {
-    title: "Advice Generator",
-    description: "A random advice generator using the advice slip API.",
-    stack: "HTML, CSS, React.js",
-    repo: "https://github.com/Birdie13-stack/advice-gen",
-    live: " https://advice-gen-sage.vercel.app/",
+    title: "Tenzies Game",
+    description:
+      "A dice game where you roll and hold dice until all show the same number. Built with game logic and state management.",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/tenzies",
+    live: "https://tenzies-red-eta.vercel.app/",
   },
+
+  {
+    title: "Password Generator",
+    description:
+      "A password generator that creates secure, random passwords based on your chosen length.",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/password-generator",
+    live: "https://password-generator-neon-one.vercel.app/",
+  },
+
+  // {
+  //   title: "Advice Generator",
+  //   description: "A random advice generator using the advice slip API.",
+  //   stack: "HTML, CSS, React.js",
+  //   repo: "https://github.com/Birdie13-stack/advice-gen",
+  //   live: " https://advice-gen-sage.vercel.app/",
+  // },
 
   {
     title: "Movie Discovery",
@@ -40,23 +58,6 @@ export const ProjectData = [
     stack: "React.js, CSS",
     repo: "https://github.com/Birdie13-stack/quote-generator ",
     live: "https://quote-generator-nine-sigma.vercel.app/",
-  },
-
-  {
-    title: "Tenzies Game",
-    description:
-      "A dice game where you roll and hold dice until all show the same number. Built with game logic and state management.",
-    stack: "React.js, CSS",
-    repo: "https://github.com/Birdie13-stack/tenzies",
-    live: "https://tenzies-red-eta.vercel.app/",
-  },
-  {
-    title: "Password Generator",
-    description:
-      "A password generator that creates secure, random passwords based on your chosen length.",
-    stack: "React.js, CSS",
-    repo: "https://github.com/Birdie13-stack/password-generator",
-    live: "https://password-generator-neon-one.vercel.app/",
   },
 
   {
