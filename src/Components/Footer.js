@@ -11,17 +11,26 @@ function Footer() {
         <p>+234 810 258 8140</p>
         <p>birdievsq@gmail.com</p>
         <section className="socials">
-          <a href="https://github.com/Birdie13-stack" target="_blank">
+          <a
+            href="https://github.com/Birdie13-stack"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={github} alt="Github Icon" />
           </a>
 
-          <a href="https://twitter.com/jahnenyenwa" target="_blank">
+          <a
+            href="https://twitter.com/jahnenyenwa"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={twitter} alt="Twitter Icon" />
           </a>
 
           <a
             href="https://www.linkedin.com/in/chinenye-oluyede"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={linkedin} alt="LinkedIn Icon" />
           </a>
@@ -34,13 +43,13 @@ function Footer() {
           <Link to="/" className="section-link">
             Home
           </Link>
-          <a href="" className="section-link">
+          <a href="#about" className="section-link">
             About
           </a>
-          <a href="" className="section-link">
+          <a href="#tech-stack" className="section-link">
             Stack
           </a>
-          <a href="" className="section-link">
+          <a href="#projects" className="section-link">
             Projects
           </a>
           <Link to="/contact">Contact</Link>

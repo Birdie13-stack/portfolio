@@ -17,26 +17,35 @@ function Header() {
         <Link to="/about" className="section-link">
           About
         </Link>
-        <a href="" className="section-link">
+        <a href="#tech-stack" className="section-link">
           Tech Stack
         </a>
-        <a href="" className="section-link">
+        <a href="#projects" className="section-link">
           Projects
         </a>
         <Link to="/contact">Contact</Link>
       </nav>
       <div className="socials">
-        <a href="https://github.com/Birdie13-stack" target="_blank">
+        <a
+          href="https://github.com/Birdie13-stack"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={github} alt="Github Icon" />
         </a>
 
-        <a href="https://twitter.com/thatbirdintech" target="_blank">
+        <a
+          href="https://twitter.com/thatbirdintech"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={twitter} alt="Twitter Icon" />
         </a>
 
         <a
           href="https://www.linkedin.com/in/chinenye-oluyede-72455a212/"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={linkedin} alt="LinkedIn Icon" />
         </a>
